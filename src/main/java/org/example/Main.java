@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
         System.out.println(" new words");
+        System.out.println(" new words2");
 
         String CONTACT_TEXT_PATTERN = "([\\W+]+)(\\s)([0-9]{11})(\\s)([\\W+]+)";
         Pattern pattern = Pattern.compile(CONTACT_TEXT_PATTERN);
